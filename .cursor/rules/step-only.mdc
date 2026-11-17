@@ -1,0 +1,12 @@
+---
+description: CAD deliverables are STEP files only — do not open the viewer or take pictures
+alwaysApply: true
+---
+
+# STEP files only
+
+When a part or assembly is built, the deliverable is the `.step` file. Do not also present the model.
+
+- Do not open the CAD viewer (`cad_show` or a viewer link).
+- Do not take snapshots, screenshots, or rendered pictures.
+- Export the requested `.step` and give its path.

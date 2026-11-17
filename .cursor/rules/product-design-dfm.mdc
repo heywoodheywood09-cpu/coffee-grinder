@@ -1,0 +1,50 @@
+---
+description: Mechanical DFM for every CAD script — tool access, fits, walls, edges, coffee flow, and checks before export
+alwaysApply: true
+---
+
+# Product design DFM
+
+Every Fusion and build123d part must be machinable and assemblable. Fix a violation before export.
+
+## Tool access
+
+Each screw hole, bolt head, and counterbore has a straight, clear entry along its axis for a driver or hex key. A hopper wall, flange, or housing must not cross that axis.
+
+```python
+# Hole axis stays clear: cone stays inside the bolt circle,
+# or the screw lands on a flat face with open space above it.
+```
+
+## Fits
+
+Mating parts always have clearance. A 0.00 mm line-to-line fit is not allowed.
+
+- Slip or thread: +0.15 mm to +0.20 mm radial. An M72×1.0 internal thread is 0.30–0.40 mm larger on diameter than the external major diameter.
+- Rotating parts: +0.25 mm radial. An inner conical burr in a 38.00 mm flat-burr bore needs a bore of at least 38.50 mm.
+
+## Walls, taps, lead-ins
+
+- Keep at least 2.0 mm of material around every bore and thread relief.
+- A blind tapped hole is at least 2.0 mm deeper than the screw engagement.
+- Start every mating bore and thread with a 0.5 mm × 45° lead-in chamfer.
+
+## Edges
+
+- Break every exposed external edge with a 0.5–1.0 mm chamfer or fillet.
+- Put a 0.5 mm root fillet on load-bearing steps, including T-step shoulders.
+
+## Coffee flow
+
+A funnel or chute that carries beans or grounds slopes at least 50° from horizontal. Leave no flat ledge where grounds can sit.
+
+## Verify before export
+
+Before writing a STEP file or a Fusion script, assert in the model:
+
+- Bounding box matches the specified envelope.
+- Each fastener axis is clear for the tool.
+- Mating diameters include the clearances above.
+- Wall thickness, lead-in chamfers, edge breaks, root fillets, and slopes meet these limits.
+
+If an assert fails, change the geometry. Do not export.

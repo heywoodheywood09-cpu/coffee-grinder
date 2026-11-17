@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "skills": {
+    "cad": {
+      "source": "earthtojake/text-to-cad",
+      "commit": "2738524be8b30ec3d025d73b499fd2a6028af336",
+      "sourceType": "github",
+      "skillPath": "skills/cad/SKILL.md",
+      "computedHash": "d401611a5ac67261064403c9bd96404621c3617175295fb904f64e3f59c6df67"
+    },
+    "engineering-drawing": {
+      "source": "earthtojake/text-to-cad",
+      "commit": "2738524be8b30ec3d025d73b499fd2a6028af336",
+      "sourceType": "github",
+      "skillPath": "skills/engineering-drawing/SKILL.md",
+      "computedHash": "66806f40ebb5a229be1e8416fb8b75f5362d179c2289a559f226689440b77618"
+    },
+    "fea": {
+      "source": "earthtojake/text-to-cad",
+      "commit": "2738524be8b30ec3d025d73b499fd2a6028af336",
+      "sourceType": "github",
+      "skillPath": "skills/fea/SKILL.md",
+      "computedHash": "d941bbe64f8ac2dbf12fba88ef7bf1b3c8287aeb74860771bb4f73c4f1bc1dbe"
+    },
+    "pcb": {
+      "source": "earthtojake/text-to-cad",
+      "commit": "2738524be8b30ec3d025d73b499fd2a6028af336",
+      "sourceType": "github",
+      "skillPath": "skills/pcb/SKILL.md",
+      "computedHash": "a22c69e2b9ba5919371d451457f1e89f61f27c5ebe1f27b3a20878b783320344"
+    },
+    "print3d": {
+      "source": "earthtojake/text-to-cad",
+      "commit": "2738524be8b30ec3d025d73b499fd2a6028af336",
+      "sourceType": "github",
+      "skillPath": "skills/print3d/SKILL.md",
+      "computedHash": "3f2d1a2f45ce95ffeeaa4464c052ca7ac910f37707d6994d059a7a50ba6c71cb"
+    },
+    "render": {
+      "source": "earthtojake/text-to-cad",
+      "commit": "2738524be8b30ec3d025d73b499fd2a6028af336",
+      "sourceType": "github",
+      "skillPath": "skills/render/SKILL.md",
+      "computedHash": "bf52539992b6e2ebdbcdbe6df9d9f1b2620a86106616c66bd2873987a1ad66bc"
+    },
+    "robot-simulation": {
+      "source": "earthtojake/text-to-cad",
+      "commit": "2738524be8b30ec3d025d73b499fd2a6028af336",
+      "sourceType": "github",
+      "skillPath": "skills/robot-simulation/SKILL.md",
+      "computedHash": "73ce8ea67b2672d758825b482472a9ec338205a05d5ca385b269176ab2afef2f"
+    },
+    "sendcutsend": {
+      "source": "earthtojake/text-to-cad",
+      "commit": "2738524be8b30ec3d025d73b499fd2a6028af336",
+      "sourceType": "github",
+      "skillPath": "skills/sendcutsend/SKILL.md",
+      "computedHash": "d6f00e9bfdac9c0c04deb2fb68860366f19dac7813c48232d352e7e0e41d49e4"
+    }
+  }
+}
