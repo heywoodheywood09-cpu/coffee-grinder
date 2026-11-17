@@ -1,5 +1,14 @@
+# Local environments and caches
+.venv/
 __pycache__/
 *.pyc
+
+# Scratch and large temporary files
 tmp/
+*.tmp
+*.bak
+*.log
 .env
 .env.*
+
+# Part sources stay tracked: *.py, *.md, .cursor/rules/, *.step
